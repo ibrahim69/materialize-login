@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+
+     <title>Flat Materialize</title>
+     <!--Import Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+     <!-- Import external css -->
+     <link rel="stylesheet" href="assets/css/flat.css">
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+
+   <body>
+
+    <div class="row"> <!-- pembuka dari row Login and Register -->
+      <form class="col l6 s12 login"> <!-- penutup dari form login -->
+        <div class="container logins">
+          <div class="row">
+            <h3>Member Login</h3>
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate email" placeholder="Username">
+              <label for="email"></label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" placeholder="*****" class="validate password">
+              <label for="password"></label>
+            </div>
+          </div>
+
+          <button class="btn waves-effect waves-light blue" type="button" name="action" style="width:100%;">
+            Login
+          </button>
+
+          <a style="color:red;" href="#">Forgot Password?</a>
+        </div> <!-- penutup div container -->
+        <div class="icon">
+          <i class="large material-icons icon-white putih">perm_identity</i>
+        </div> <!-- penutup dari icon  -->
+
+      </form> <!-- penutup dari form login -->
+
+      <form class="col l6 s12 register"> <!-- pembuka dari from register -->
+        <div class="container registers">
+          <div class="row">
+            <h3>Register</h3>
+            <div class="input-field col s12">
+              <input id="e-mail" type="email" class="validate email" placeholder="Username">
+              <label for="email"></label>
+            </div>
+          </div> <!-- penutup row user name -->
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="pwd" type="password" placeholder="Password" class="validate password">
+              <label for="password"></label>
+            </div>
+          </div>  <!-- penutup row password -->
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="confirm-password" type="password" placeholder="Confirm Password" class="validate password">
+              <label for="password"></label>
+            </div>
+          </div>  <!-- penutup row Confirm -->
+          <button class="btn waves-effect waves-light blue" type="button" name="action" style="width:100%;">
+            Register
+          </button>
+
+          <a style="color:red;" href="#">Member Login?</a>
+        </div> <!-- penutup div container -->
+        <div class="icons">
+          <i class="large material-icons icons-white">mode_edit</i>
+        </div> <!-- penutup dari icon  -->
+
+      </form> <!-- penutup dari form  register-->
+    </div> <!-- penutup dari row login and register -->
+
+
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="assets/https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+   </body>
+ </html>
